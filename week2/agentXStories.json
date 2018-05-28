@@ -1,0 +1,1739 @@
+{
+    "code": 200,
+    "status": "Ok",
+    "copyright": "© 2018 MARVEL",
+    "attributionText": "Data provided by Marvel. © 2018 MARVEL",
+    "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2018 MARVEL</a>",
+    "etag": "ab8881e2ab954861e9d6f835b70df22a633b4ebb",
+    "data": {
+        "offset": 0,
+        "limit": 20,
+        "total": 23,
+        "count": 20,
+        "results": [
+            {
+                "id": 1135,
+                "title": "AGENT X (2002) #15",
+                "description": "",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/1135",
+                "type": "cover",
+                "modified": "2017-07-25T11:43:48-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 5,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/1135/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/424",
+                            "name": "Udon Comics",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4926",
+                            "name": "Alvin Lee",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/718",
+                            "name": "Marc Sumerak",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 5
+                },
+                "characters": {
+                    "available": 3,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/1135/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009268",
+                            "name": "Deadpool"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009648",
+                            "name": "Taskmaster"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/1135/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/1135/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/394",
+                            "name": "Agent X (2002) #15"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/1135/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/394",
+                    "name": "Agent X (2002) #15"
+                }
+            },
+            {
+                "id": 2484,
+                "title": "CABLE & DEADPOOL (2004) #12",
+                "description": "",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/2484",
+                "type": "cover",
+                "modified": "2017-08-01T10:35:28-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 6,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/2484/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12581",
+                            "name": "Chris Eliopolous",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/689",
+                            "name": "Derek Fridolfs",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/457",
+                            "name": "Gotham Entertainment Group",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/6001",
+                            "name": "Fabian Nicieza",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5258",
+                            "name": "Nicole Wiley",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/661",
+                            "name": "Patrick Zircher",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 6
+                },
+                "characters": {
+                    "available": 4,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/2484/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009214",
+                            "name": "Cable"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1017317",
+                            "name": "Cable (Deadpool)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009268",
+                            "name": "Deadpool"
+                        }
+                    ],
+                    "returned": 4
+                },
+                "series": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/2484/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/693",
+                            "name": "Cable & Deadpool (2004 - 2008)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/1338",
+                            "name": "Cable & Deadpool Vol. 2: The Burnt Offering (2007)"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "comics": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/2484/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/1649",
+                            "name": "Cable & Deadpool (2004) #12"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/5761",
+                            "name": "Cable & Deadpool Vol. 2: The Burnt Offering (Trade Paperback)"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/2484/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/1649",
+                    "name": "Cable & Deadpool (2004) #12"
+                }
+            },
+            {
+                "id": 37514,
+                "title": "AGENT X (2002) #1",
+                "description": "",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37514",
+                "type": "cover",
+                "modified": "2017-07-21T10:53:27-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 5,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37514/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/424",
+                            "name": "Udon Comics",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4926",
+                            "name": "Alvin Lee",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4009",
+                            "name": "Andrew Lis",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4174",
+                            "name": "Mike Marts",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 5
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37514/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37514/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37514/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17702",
+                            "name": "Agent X (2002) #1"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37514/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17702",
+                    "name": "Agent X (2002) #1"
+                }
+            },
+            {
+                "id": 37515,
+                "title": "Dead Man's Switch Part One",
+                "description": "Sandi discovers an amnesiac Alex Hayden and trains him, with the help of Outlaw and Taskmaster, to be a mercenary.",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37515",
+                "type": "story",
+                "modified": "1969-12-31T19:00:00-0500",
+                "thumbnail": null,
+                "creators": {
+                    "available": 4,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37515/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/424",
+                            "name": "Udon Comics",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4926",
+                            "name": "Alvin Lee",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/8429",
+                            "name": "Dave Sharpe",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 4
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37515/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37515/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37515/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17702",
+                            "name": "Agent X (2002) #1"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37515/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17702",
+                    "name": "Agent X (2002) #1"
+                }
+            },
+            {
+                "id": 37516,
+                "title": "AGENT X (2002) #10",
+                "description": "",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37516",
+                "type": "cover",
+                "modified": "2017-07-21T16:36:28-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 6,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37516/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/239",
+                            "name": "Juan Bobillo",
+                            "role": "penciller"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/441",
+                            "name": "Chris Chuckry",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5187",
+                            "name": "Evan Dorkin",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4009",
+                            "name": "Andrew Lis",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/240",
+                            "name": "Marcelo Sosa",
+                            "role": "inker"
+                        }
+                    ],
+                    "returned": 6
+                },
+                "characters": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37516/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009648",
+                            "name": "Taskmaster"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37516/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37516/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17703",
+                            "name": "Agent X (2002) #10"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37516/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17703",
+                    "name": "Agent X (2002) #10"
+                }
+            },
+            {
+                "id": 37518,
+                "title": "AGENT X (2002) #11",
+                "description": "",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37518",
+                "type": "cover",
+                "modified": "2017-07-21T17:02:47-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 7,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37518/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/239",
+                            "name": "Juan Bobillo",
+                            "role": "penciller"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/441",
+                            "name": "Chris Chuckry",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5187",
+                            "name": "Evan Dorkin",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4009",
+                            "name": "Andrew Lis",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/240",
+                            "name": "Marcelo Sosa",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/575",
+                            "name": "Brian Stelfreeze",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 7
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37518/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37518/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37518/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17704",
+                            "name": "Agent X (2002) #11"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37518/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17704",
+                    "name": "Agent X (2002) #11"
+                }
+            },
+            {
+                "id": 37521,
+                "title": "AGENT X (2002) #13",
+                "description": "",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37521",
+                "type": "cover",
+                "modified": "2017-07-25T10:35:36-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 4,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37521/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4926",
+                            "name": "Alvin Lee",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/718",
+                            "name": "Marc Sumerak",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 4
+                },
+                "characters": {
+                    "available": 3,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37521/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009268",
+                            "name": "Deadpool"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009648",
+                            "name": "Taskmaster"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37521/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37521/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17706",
+                            "name": "Agent X (2002) #13"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37521/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17706",
+                    "name": "Agent X (2002) #13"
+                }
+            },
+            {
+                "id": 37523,
+                "title": "AGENT X (2002) #14",
+                "description": "",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37523",
+                "type": "cover",
+                "modified": "2017-07-25T11:07:16-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 4,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37523/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4926",
+                            "name": "Alvin Lee",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/718",
+                            "name": "Marc Sumerak",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 4
+                },
+                "characters": {
+                    "available": 3,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37523/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009268",
+                            "name": "Deadpool"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009648",
+                            "name": "Taskmaster"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37523/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37523/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17707",
+                            "name": "Agent X (2002) #14"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37523/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17707",
+                    "name": "Agent X (2002) #14"
+                }
+            },
+            {
+                "id": 37525,
+                "title": "AGENT X (2002) #2",
+                "description": "",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37525",
+                "type": "cover",
+                "modified": "2017-07-21T11:21:56-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 5,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37525/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/424",
+                            "name": "Udon Comics",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4926",
+                            "name": "Alvin Lee",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4009",
+                            "name": "Andrew Lis",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 5
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37525/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37525/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37525/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17709",
+                            "name": "Agent X (2002) #2"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37525/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17709",
+                    "name": "Agent X (2002) #2"
+                }
+            },
+            {
+                "id": 37526,
+                "title": "Dead Man's Switch Part Two",
+                "description": "Alex & Outlaw are hired to steal the Punisher's guns",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37526",
+                "type": "story",
+                "modified": "1969-12-31T19:00:00-0500",
+                "thumbnail": null,
+                "creators": {
+                    "available": 4,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37526/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/424",
+                            "name": "Udon Comics",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4926",
+                            "name": "Alvin Lee",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/8429",
+                            "name": "Dave Sharpe",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 4
+                },
+                "characters": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37526/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009515",
+                            "name": "Punisher"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37526/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37526/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17709",
+                            "name": "Agent X (2002) #2"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37526/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17709",
+                    "name": "Agent X (2002) #2"
+                }
+            },
+            {
+                "id": 37527,
+                "title": "AGENT X (2002) #3",
+                "description": "",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37527",
+                "type": "cover",
+                "modified": "2017-07-21T11:45:04-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 5,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37527/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/424",
+                            "name": "Udon Comics",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4926",
+                            "name": "Alvin Lee",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4009",
+                            "name": "Andrew Lis",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 5
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37527/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37527/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37527/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17710",
+                            "name": "Agent X (2002) #3"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37527/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17710",
+                    "name": "Agent X (2002) #3"
+                }
+            },
+            {
+                "id": 37528,
+                "title": "Dead Man's Switch Part Three",
+                "description": "Alex and Outlaw battle some jewelry thieves.  Taskmaster leaves Sandi.  Mary Zero is introduced",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37528",
+                "type": "story",
+                "modified": "1969-12-31T19:00:00-0500",
+                "thumbnail": null,
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37528/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/424",
+                            "name": "Udon Comics",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37528/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37528/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37528/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17710",
+                            "name": "Agent X (2002) #3"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37528/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17710",
+                    "name": "Agent X (2002) #3"
+                }
+            },
+            {
+                "id": 37529,
+                "title": "AGENT X (2002) #4",
+                "description": "",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37529",
+                "type": "cover",
+                "modified": "2017-07-21T12:18:30-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 5,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37529/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/424",
+                            "name": "Udon Comics",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4926",
+                            "name": "Alvin Lee",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4009",
+                            "name": "Andrew Lis",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 5
+                },
+                "characters": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37529/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009648",
+                            "name": "Taskmaster"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37529/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37529/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17711",
+                            "name": "Agent X (2002) #4"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37529/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17711",
+                    "name": "Agent X (2002) #4"
+                }
+            },
+            {
+                "id": 37530,
+                "title": "Dead Man's Switch Part Four",
+                "description": "Alex is shot and his theme park is burned.  Taskmaster sees Higashi asking Sandi out.",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37530",
+                "type": "story",
+                "modified": "1969-12-31T19:00:00-0500",
+                "thumbnail": null,
+                "creators": {
+                    "available": 4,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37530/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/424",
+                            "name": "Udon Comics",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4926",
+                            "name": "Alvin Lee",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 4
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37530/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37530/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37530/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17711",
+                            "name": "Agent X (2002) #4"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37530/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17711",
+                    "name": "Agent X (2002) #4"
+                }
+            },
+            {
+                "id": 37531,
+                "title": "AGENT X (2002) #5",
+                "description": "",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37531",
+                "type": "cover",
+                "modified": "2017-07-21T12:46:08-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 4,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37531/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/424",
+                            "name": "Udon Comics",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4009",
+                            "name": "Andrew Lis",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 4
+                },
+                "characters": {
+                    "available": 3,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37531/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009158",
+                            "name": "Arcade"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009648",
+                            "name": "Taskmaster"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37531/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37531/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17712",
+                            "name": "Agent X (2002) #5"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37531/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17712",
+                    "name": "Agent X (2002) #5"
+                }
+            },
+            {
+                "id": 37532,
+                "title": "Dead Man's Switch Part Five",
+                "description": "Arcade saves Alex's life, and offers to help rebuild his theme park.  Alex spends the issue unable to speak.",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37532",
+                "type": "story",
+                "modified": "1969-12-31T19:00:00-0500",
+                "thumbnail": null,
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37532/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/424",
+                            "name": "Udon Comics",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37532/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009158",
+                            "name": "Arcade"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37532/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37532/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17712",
+                            "name": "Agent X (2002) #5"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37532/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17712",
+                    "name": "Agent X (2002) #5"
+                }
+            },
+            {
+                "id": 37533,
+                "title": "AGENT X (2002) #6",
+                "description": "",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37533",
+                "type": "cover",
+                "modified": "2017-07-21T14:42:54-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 4,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37533/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/424",
+                            "name": "Udon Comics",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4926",
+                            "name": "Alvin Lee",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4009",
+                            "name": "Andrew Lis",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 4
+                },
+                "characters": {
+                    "available": 3,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37533/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009537",
+                            "name": "Rhino"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009648",
+                            "name": "Taskmaster"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37533/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37533/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17713",
+                            "name": "Agent X (2002) #6"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37533/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17713",
+                    "name": "Agent X (2002) #6"
+                }
+            },
+            {
+                "id": 37534,
+                "title": "Dead Man's Switch Part Six",
+                "description": "Alex, Outlaw and Taskmaster fight through an army of mercenaries.  Alex takes on Higashi as a client.",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37534",
+                "type": "story",
+                "modified": "1969-12-31T19:00:00-0500",
+                "thumbnail": null,
+                "creators": {
+                    "available": 4,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37534/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/424",
+                            "name": "Udon Comics",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4926",
+                            "name": "Alvin Lee",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 4
+                },
+                "characters": {
+                    "available": 3,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37534/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009245",
+                            "name": "Constrictor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009537",
+                            "name": "Rhino"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37534/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37534/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17713",
+                            "name": "Agent X (2002) #6"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37534/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17713",
+                    "name": "Agent X (2002) #6"
+                }
+            },
+            {
+                "id": 37535,
+                "title": "AGENT X (2002) #7",
+                "description": "",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/37535",
+                "type": "cover",
+                "modified": "2017-07-21T15:14:23-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37535/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4009",
+                            "name": "Andrew Lis",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                            "name": "Gail Simone",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37535/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009648",
+                            "name": "Taskmaster"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37535/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37535/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17714",
+                            "name": "Agent X (2002) #7"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/37535/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17714",
+                    "name": "Agent X (2002) #7"
+                }
+            },
+            {
+                "id": 67703,
+                "title": "AGENT X (2002) #12",
+                "description": "",
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/67703",
+                "type": "cover",
+                "modified": "2017-07-25T09:53:57-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 6,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/67703/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/7129",
+                            "name": "Virtual Calligraphy",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/361",
+                            "name": "Cory Petit",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/189",
+                            "name": "Kyle Hotz",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4009",
+                            "name": "Andrew Lis",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/467",
+                            "name": "Angelo Tsang",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/344",
+                            "name": "Daniel Way",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 6
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/67703/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011031",
+                            "name": "Agent X (Nijo)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/67703/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/459",
+                            "name": "Agent X (2002 - 2004)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/67703/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/17705",
+                            "name": "Agent X (2002) #12"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/stories/67703/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/comics/17705",
+                    "name": "Agent X (2002) #12"
+                }
+            }
+        ]
+    }
+}
