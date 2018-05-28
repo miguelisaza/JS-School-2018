@@ -1,9 +1,26 @@
 # Week 2 Challenge
 ##Consume Marvel API making requests with Postman
 
-According to [Marvel API Auth documentation](https://developer.marvel.com/documentation/authorization), Postman is treated like a server-side application, hence I had to provide a MD5 hash as a parameter in the payload in order to make successful requests.
+According to [Marvel API Auth documentation](https://developer.marvel.com/documentation/authorization), Postman is treated like a server-side application, hence I had to provide three parameters: Timestamp, Public Key and MD5 hash of the concatenation of the both keys and the timestam in order to make successful requests.
 
-It was necesary to create a Pre-request script in postman
+It was necesary to create a Pre-request script in postman for doing the timestamps and computing the hash. 
+
+```JavaScript
+var date = new Date();
+
+var timestamp = date.getTime().toString();
+pm.globals.set("ts", timestamp);
+
+var publicKey = "MyPublicKey";
+pm.globals.set("apiKey", publicKey);
+
+var privateKey = "MyPrivateKey";
+
+var dHash = timestamp + privateKey + publicKey;
+
+var hash = CryptoJS.MD5(dHash).toString();
+pm.globals.set("hash", hash);
+```
 
 Here is a screenshot of the first request at https://gateway.marvel.com:443/v1/public/characters and the script done: 
 
