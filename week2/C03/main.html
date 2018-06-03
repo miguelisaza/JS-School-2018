@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Jobsity Bookshelf</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+        <link href="style2.css" rel="stylesheet">
+        <link rel="shortcut icon" href="https://www.jobsity.com/sites/default/files/logo2.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://unpkg.com/tippy.js@2.5.2/dist/tippy.all.min.js"></script>
+    </head>
+
+
+  <body>
+    <div class="header">    
+        <div id="logo">
+            <img src="img/jobsity.png" align="left">
+        </div>
+        <div id="title">BOOKSHELF</div>  
+        <div id="login">User Name
+             <img onclick="showUserOptions()" id="profile-ph" src="img/user.png" align="right">
+             <div id="userDrop" class="user-dropdown-content">
+                    <a href="#profile">Profile</a>
+                    <a href="#settigns">Settings</a>
+                    <a href="index.html">Sign Out</a>
+             </div>
+        </div> 
+        <div id="mobile">
+            <i class="fa fa-bars" onclick="showMobileOptions()"></i>
+            <div id="mobileDrop" class="mobile-drop-content">
+                <a id="filters" href="#profile">Filters</a>
+                <a href="#filter">Profile</a>
+                <a href="index.html">Sign Out</a>
+                
+            </div>
+
+        </div>  
+    </div>
+
+    <div class="books-container">
+            <div class="books">
+                <h4 class="digital" >DIGITAL</h4>
+                <img src="img/1.jpg">
+            </div>
+            <div class="books">
+                <h4 class="physical">PHYSICAL</h4>
+                <img src="img/2.jpg">
+            </div>
+            <div class="books">
+                <h4 class="digital">DIGITAL</h4>
+                <img src="img/3.jpg">
+            </div>            
+            <div class="books">
+                <h4 class="physical">PHYSICAL</h4>
+                <img src="img/4.jpg">
+            </div>            
+            <div class="books">
+                <h4 class="digital">DIGITAL</h4>
+                <img src="img/5.jpg">
+            </div>            
+            <div class="books">
+                <h4 class="digital">DIGITAL</h4>
+                <img src="img/6.jpg">
+            </div>            
+            <div class="books">
+                <h4 class="physical">PHYSICAL</h4>
+                <img src="img/7.jpg">
+            </div>            
+            <div class="books">
+                <h4 class="digital">DIGITAL</h4>
+                <img src="img/8.jpg">
+            </div>            
+            <div class="books">
+                <h4 class="digital">DIGITAL</h4>
+                <img src="img/9.jpg">
+            </div>            
+            <div class="books">
+                <h4 class="digital">DIGITAL</h4>
+                <img src="img/10.jpg">
+            </div>            
+            <div class="books">
+                <h4 class="digital">DIGITAL</h4>
+                <img src="img/11.jpg">
+            </div>            
+            <div class="books">
+                <h4 class="physical">PHYSICAL</h4>
+                <img src="img/12.jpg">
+            </div>            
+            <div class="books">
+                <h4 class="physical">PHYSICAL</h4>
+                <img src="img/13.jpg">
+            </div>            
+            <div class="books">
+                <h4 class="digital">DIGITAL</h4>
+                <img src="img/14.jpg">
+            </div>            
+            <div class="books">
+                <h4 class="physical">PHYSICAL</h4>
+                <img src="img/15.jpg">
+            </div>            
+            <div class="books">
+                <h4 class="physical">PHYSICAL</h4>
+                <img src="img/16.jpg">
+            </div>            
+            <div class="books">
+                <h4 class="physical">PHYSICAL</h4>
+                <img src="img/17.jpg">
+            </div>                      
+          </div>
+    <div class="footer">
+        <form>
+            <label>Book type:</label> 
+            <select class="select" id="book-type" name="book-type">
+                <option value="physical">Physical</option>
+                <option value="digital">Digital</option>
+            </select>
+            <label>Location:</label>
+            <select class="select" id="location"  name="location">
+                <option value="cartagena">Cartagena</option>
+                <option value="medellin">Medellín</option>
+                <option value="quito">Quito</option>
+            </select>
+            <label>Category:</label>
+            <select class="select"> 
+                <option value="science">Science</option>
+                <option value="javascript">JavaScript</option>
+            </select>
+            <i class="fa fa-search"></i>
+            <input type="text">
+        
+        </form>       
+    </div>
+
+    <div id="BookInfo" style="display: none">
+        <div><h3>A cool programming book.</h3></div>
+        <div><h4>John Doe</h4></div>
+        <div><h5 style="color: greenyellow">Available</h5></div>
+        <div><h6>A brief description... </h6></div>
+    </div>
+  </body>
+  <script src="scripts.js"></script>
+</html> 

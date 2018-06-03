@@ -1,0 +1,44 @@
+<!<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jobsity Bookshelf Login</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="login-page">
+    <div class="header">
+      <img src="img/jobsity.png" algin="center">
+      <p>Bookshelf</p>
+    </div>
+    <div class="form">
+      <form class="register-form" >
+        <input type="text" placeholder="name"/>
+        <input type="password" placeholder="password"/>
+        <input type="text" placeholder="email address"/>
+        <button>create</button>
+        <p class="message">Already registered? <a href="#">Sign In</a></p>
+      </form>
+      <form class="login-form" action="main.html" method="GET">
+        <input type="text" placeholder="Username"/>
+        <input type="password" placeholder="Password"/>
+        <button type="submit">login</button>
+        <p class="message">Not registered yet? <a href="#">Create an account</a></p>
+      </form>
+    </div>
+  </div>
+</body>
+
+<script>
+  $('.message a').click(function(){
+   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});
+</script>
+
+</html>

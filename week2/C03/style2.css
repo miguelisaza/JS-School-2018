@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+@font-face {
+    font-family: Pluto;
+    src: url(assets/Pluto-Sans-Bold.otf); 
+}
+body {
+    height:100%; width:99%;
+    align-content: center;
+    font-family: 'Roboto', Pluto, sans-serif;
+    background-color: #FCF8F3; 
+}
+
+.header{
+    color: white;
+    background-color: #6cc0e4;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 35px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.header img{
+      
+    padding: 0px 12px;
+    max-width: 110px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+}
+
+
+.header p{
+    margin: 0px;
+    padding: 0px;
+    right: 35px;
+}
+
+#mobile{
+    display: none;
+}
+
+#logo {
+    flex: 1;
+}
+
+#title{
+    font-family: Pluto;
+    flex: 2;
+    padding-top: 3px;
+    font-size: 20px;
+    text-align: center; 
+    font-weight: bolder; 
+}
+
+#login{
+    flex: 1;
+    padding-top: 5px;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile-ph{
+    position: relative;
+    top: -5px;
+    
+}
+
+.user-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 38px;
+    right: 0;
+}
+
+.user-dropdown-content a {
+    color: white;
+    background-color: #54a2c4;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.user-dropdown-content a:hover {background-color: #6cc0e4}
+
+.mobile-drop-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 38px;
+    right: 0;
+}
+
+.mobile-drop-content a{
+    color: white;
+    background-color: #54a2c4;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.mobile-drop-content a:hover {background-color: #6cc0e4}
+
+
+
+.show {
+    display: block;
+    
+}
+
+.books-container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #FCF8F3;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .books {
+    width: 150px;
+    height: 200px;
+    margin: 20px 7px;
+  }
+
+  .books img{
+      width: inherit;
+      height: inherit;
+  }
+
+  h4 {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  .digital{
+    color: #fff;
+    background: purple;
+  }
+
+  .physical{
+      background: yellow;
+  }
+ 
+.footer{
+    width: 800px;
+    overflow: hidden;
+    border-style: solid;
+    border-color:#f5da51;
+    background-color: rgb(133, 111, 132, 0.75);
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+#responsive-menu{
+    display: none;
+}
+
+.footer form{
+    color: white;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer i{
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+
+.select {
+    position: relative;
+    height: 30px;
+    background: white;
+    box-shadow: 0 3px 3px rgba(0,0,0,.1);
+}
+    select, input {
+      font-size: 15px;
+      border: none;
+      box-shadow: none;
+      height: 100%;
+      width: 115px;
+      cursor: pointer;
+      outline: none;
+      padding-left: 4px;
+      border: 1px solid #a52c2c;
+  
+    }
+
+    input{
+        width: 20%;
+        height: 26px;
+            
+    }
+
+.mobile-menu .icon{
+    display: none;
+}
+
+@media screen and (max-width: 845px){
+
+    .footer {
+        padding: 5px;
+        width: 400px;
+        height: 75px;
+    }
+
+    .footer form{
+        padding: auto;
+        flex-wrap: wrap;
+        height: 75px;
+    }
+
+    input{
+        width: 35%;
+    }
+
+}
+
+@media screen and (max-width: 569px){
+
+    #logo {
+        display: none;
+    }
+
+    #title{
+        padding-left: 33px;
+    }
+
+    #login{ 
+        display: none;
+    }
+    
+    #mobile{
+        display: block;
+        padding-right: 10px;
+        font-size: 25px;
+    }
+
+    #mobile a{
+        font-size: 20px;
+    }
+
+    #filters{
+        background-color: #f5da51
+    }
+
+    #filters a:hover {
+        background-color: #d6c051
+ }
+
+
+    .footer{
+        display: none;
+    }
+
+
+    .header div {
+
+        text-align: center;
+    }
+    
+}
