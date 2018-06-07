@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JS Piano</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <audio id="sample-C3" src="samples/C3.ogg" preload="auto"></audio>
+    <audio id="sample-C3#" src="samples/C3s.ogg" preload="auto"></audio>
+    <audio id="sample-D3" src="samples/D3.ogg" preload="auto"></audio>
+    <audio id="sample-D3#" src="samples/D3s.ogg" preload="auto"></audio>
+    <audio id="sample-E3" src="samples/E3.ogg" preload="auto"></audio>
+    <audio id="sample-F3" src="samples/F3.ogg" preload="auto"></audio>
+    <audio id="sample-F3#" src="samples/F3s.ogg" preload="auto"></audio>
+    <audio id="sample-G3" src="samples/G3.ogg" preload="auto"></audio>
+    <audio id="sample-G3#" src="samples/G3s.ogg" preload="auto"></audio>
+    <audio id="sample-A3" src="samples/A3.ogg" preload="auto"></audio>
+    <audio id="sample-A3#" src="samples/A3s.ogg" preload="auto"></audio>
+    <audio id="sample-B3" src="samples/B3.ogg" preload="auto"></audio>
+    <audio id="sample-C4" src="samples/C4.ogg" preload="auto"></audio>
+    <audio id="sample-C4#" src="samples/C4s.ogg" preload="auto"></audio>
+    <audio id="sample-D4" src="samples/D4.ogg" preload="auto"></audio>
+    <audio id="sample-D4#" src="samples/D4s.ogg" preload="auto"></audio>
+    <audio id="sample-E4" src="samples/E4.ogg" preload="auto"></audio>
+    <audio id="sample-F4" src="samples/F4.ogg" preload="auto"></audio>
+    <audio id="sample-F4#" src="samples/F4s.ogg" preload="auto"></audio>
+    <audio id="sample-G4" src="samples/G4.ogg" preload="auto"></audio>
+    <audio id="sample-G4#" src="samples/G4s.ogg" preload="auto"></audio>
+    <audio id="sample-A4" src="samples/A4.ogg" preload="auto"></audio>
+    <audio id="sample-A4#" src="samples/A4s.ogg" preload="auto"></audio>
+    <audio id="sample-B4" src="samples/B4.ogg" preload="auto"></audio>
+
+    <div class="container">
+        <div class="header">
+            <h1>JS Piano</h1>
+        </div>
+
+        <div class="piano">
+            <ul id="piano" class="piano" >
+                <li id="C3" class="white c"></li>
+                <li id="C3#" class="black cs"></li>
+                <li id="D3" class="white d"></li>
+                <li id="D3#" class="black ds"></li>
+                <li id="E3" class="white e"></li>
+                <li id="F3" class="white f"></li>
+                <li id="F3#" class="black fs"></li>
+                <li id="G3" class="white g"></li>
+                <li id="G3#" class="black gs"></li>
+                <li id="A3" class="white a"></li>
+                <li id="A3#" class="black as"></li>
+                <li id="B3" class="white b"></li>
+                <li id="C4" class="white c"></li>
+                <li id="C4#" class="black cs"></li>
+                <li id="D4" class="white d"></li>
+                <li id="D4#" class="black ds"></li>
+                <li id="E4" class="white e"></li>
+                <li id="F4" class="white f"></li>
+                <li id="F4#" class="black fs"></li>
+                <li id="G4" class="white g"></li>
+                <li id="G4#" class="black gs"></li>
+                <li id="A4" class="white a"></li>
+                <li id="A4#" class="black as"></li>
+                <li id="B4" class="white b"></li>
+            </ul>
+        </div>
+
+        <div class="instructions">
+            <h2>Instructions:</h2>
+            <p>You can click in keys to play notes or use the keyboard: </p>
+            <h3>Keyboard controls:</h3>
+            <p>First octave: From "Q" to "O"</p>
+            <p>Second octave: from "C" to "."</p>
+            <br>
+            <p>Samples taken from: <a href="http://theremin.music.uiowa.edu/MISpiano.html" target="_blank">http://theremin.music.uiowa.edu/MISpiano.html</a></p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
