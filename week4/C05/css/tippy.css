@@ -1,0 +1,61 @@
+#book-info{
+    display: none; 
+  
+} 
+#tt-header {
+    text-align: left;
+    margin: 1em 1em 0 1em;
+}
+
+#tt-header > h4{
+    margin: 0;
+    color: #6ec1e4;
+
+}
+
+#tt-header > h5{
+    margin: 0;
+}
+
+#tt-header > h6.available{
+    margin: 0;
+    color: greenyellow;
+}
+
+#tt-header > h6.not-available{
+    margin: 0;
+    color: greenyellow;
+}
+
+#tt-body{
+    margin: 0 1em 1em 1em;
+}
+
+#tt-body > h5{
+    text-align: left;
+    margin: 0;
+}
+
+
+#tt-body > p{
+    margin: 0;
+    text-align: justify;
+    display: block;
+    width: 20em;
+    height: auto;
+    font-size: 12px;
+    text-justify: inter-word;
+
+}
+
+#span{
+    color:  #979797;
+}
+
+#book-year{
+    margin: 0;
+    position: relative; 
+    bottom: 45px;
+    left: 210px;
+}
+
