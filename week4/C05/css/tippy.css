@@ -1,6 +1,5 @@
 #book-info{
     display: none; 
-  
 } 
 #tt-header {
     text-align: left;
@@ -8,6 +7,8 @@
 }
 
 #tt-header > h4{
+    font-stretch: condensed;
+    font-weight: bold;
     margin: 0;
     color: #6ec1e4;
 
@@ -32,12 +33,16 @@
 }
 
 #tt-body > h5{
+    font-stretch: condensed;
+    font-weight: bold;
     text-align: left;
     margin: 0;
 }
 
 
 #tt-body > p{
+    font-stretch: condensed;
+    font-weight: lighter;
     margin: 0;
     text-align: justify;
     display: block;

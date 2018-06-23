@@ -1,0 +1,145 @@
+ [
+    {
+      "bookId": 1,
+      "isbn": 9781451648546,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Digital",
+        "copies": null,
+        "isLent": false
+      },
+      "rating": 3
+    },
+    {
+      "bookId": 2,
+      "isbn": 1118871650,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Digital",
+        "copies": null,
+        "isLent": false
+      },
+      "rating": 4
+    },
+    {
+      "bookId": 3,
+      "isbn": "0596554877",
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Cartagena",
+        "copies": 2,
+        "isLent": false
+      },
+      "rating": 5
+    },
+    {
+      "bookId": 4,
+      "isbn": 1449355692,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Quito",
+        "copies": 1,
+        "isLent": false
+      },
+      "rating": 4
+    },
+    {
+      "bookId": 5,
+      "isbn": 1593276850,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Digital",
+        "copies": null,
+        "isLent": false
+      },
+      "rating": 4
+    },
+    {
+      "bookId": 6,
+      "isbn": "0321700694",
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Medellin",
+        "copies": null,
+        "isLent": false
+      },
+      "rating": 5
+    },
+    {
+      "bookId": 7,
+      "isbn": 1491936061,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Medellin",
+        "copies": null,
+        "isLent": false
+      },
+      "rating": 4
+    },
+    {
+      "bookId": 9,
+      "isbn": "0241004551",
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Medellin",
+        "copies": 1,
+        "isLent": true
+      },
+      "rating": 4
+    },
+    {
+      "bookId": 10,
+      "isbn": 1285415019,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Quito",
+        "copies": 1,
+        "isLent": false
+      },
+      "rating": 4
+    },
+    {
+      "bookId": 11,
+      "isbn": "059655558X",
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Digital",
+        "copies": null,
+        "isLent": false
+      },
+      "rating": 4
+    },
+    {
+      "bookId": 12,
+      "isbn": "0471237124",
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Cartagena",
+        "copies": 1,
+        "isLent": false
+      },
+      "rating": 5
+    },
+    {
+      "bookId": 14,
+      "isbn": 1491920475,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Digital",
+        "copies": null,
+        "isLent": false
+      },
+      "rating": 4
+    },
+    {
+      "bookId": 15,
+      "isbn": 1491971940,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Digital",
+        "copies": null,
+        "isLent": false
+      },
+      "rating": 4
+    }
+]

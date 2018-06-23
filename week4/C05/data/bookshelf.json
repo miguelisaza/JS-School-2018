@@ -1,173 +1,147 @@
 {
-    "books": [
-      {
-        "bookId": 1,
-        "isbn": 9781451648546,
-        "acquisitionDate": "MM/DD/YYYY",
-        "isDigital": true,
-        "location": {
-          "city": null,
-          "copies": null
-        },
-        "isLent": false,
-        "rating": 3,
-        "fullBookInfo": "https://www.googleapis.com/books/v1/volumes?q=isbn:9781451648546"
+  "books": [
+    {
+      "bookId": 1,
+      "isbn": 9781451648546,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Digital",
+        "copies": null,
+        "isLent": false
       },
-      {
-        "bookId": 2,
-        "isbn": 1118871650,
-        "acquisitionDate": "MM/DD/YYYY",
-        "isDigital": true,
-        "location": {
-          "city": null,
-          "copies": null
-        },
-        "isLent": false,
-        "rating": 4,
-        "fullBookInfo": "https://www.googleapis.com/books/v1/volumes?q=isbn:1118871650"
+      "rating": 3
+    },
+    {
+      "bookId": 2,
+      "isbn": 1118871650,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Digital",
+        "copies": null,
+        "isLent": false
       },
-      {
-        "bookId": 3,
-        "isbn": "0596554877",
-        "acquisitionDate": "MM/DD/YYYY",
-        "isDigital": false,
-        "location": {
-          "city": "Cartagena",
-          "copies": 2
-        },
-        "isLent": true,
-        "rating": 5,
-        "fullBookInfo": "https://www.googleapis.com/books/v1/volumes?q=isbn:0596554877"
+      "rating": 4
+    },
+    {
+      "bookId": 3,
+      "isbn": "0596554877",
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Cartagena",
+        "copies": 2,
+        "isLent": false
       },
-      {
-        "bookId": 4,
-        "isbn": 1449355692,
-        "acquisitionDate": "MM/DD/YYYY",
-        "isDigital": false,
-        "location": {
-          "city": "Quito",
-          "copies": 1
-        },
-        "isLent": false,
-        "rating": 4,
-        "fullBookInfo": "https://www.googleapis.com/books/v1/volumes?q=isbn:1449355692"
+      "rating": 5
+    },
+    {
+      "bookId": 4,
+      "isbn": 1449355692,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Quito",
+        "copies": 1,
+        "isLent": false
       },
-      {
-        "bookId": 5,
-        "isbn": 1593276850,
-        "acquisitionDate": "MM/DD/YYYY",
-        "isDigital": true,
-        "location": {
-          "city": null,
-          "copies": null
-        },
-        "isLent": false,
-        "rating": 4,
-        "fullBookInfo": "https://www.googleapis.com/books/v1/volumes?q=isbn:1593276850"
+      "rating": 4
+    },
+    {
+      "bookId": 5,
+      "isbn": 1593276850,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Digital",
+        "copies": null,
+        "isLent": false
       },
-      {
-        "bookId": 6,
-        "isbn": "0321700694",
-        "acquisitionDate": "MM/DD/YYYY",
-        "isDigital": true,
-        "location": {
-          "city": null,
-          "copies": null
-        },
-        "isLent": false,
-        "rating": 5,
-        "fullBookInfo": "https://www.googleapis.com/books/v1/volumes?q=isbn:0321700694"
+      "rating": 4
+    },
+    {
+      "bookId": 6,
+      "isbn": "0321700694",
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Medellin",
+        "copies": null,
+        "isLent": false
       },
-      {
-        "bookId": 7,
-        "isbn": 1491936061,
-        "acquisitionDate": "MM/DD/YYYY",
-        "isDigital": true,
-        "location": {
-          "city": null,
-          "copies": null
-        },
-        "isLent": false,
-        "rating": 4,
-        "fullBookInfo": "https://www.googleapis.com/books/v1/volumes?q=isbn:1491936061"
+      "rating": 5
+    },
+    {
+      "bookId": 7,
+      "isbn": 1491936061,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Medellin",
+        "copies": null,
+        "isLent": false
       },
-      {
-        "bookId": 9,
-        "isbn": "0241004551",
-        "acquisitionDate": "MM/DD/YYYY",
-        "isDigital": false,
-        "location": {
-          "city": "Medellín",
-          "copies": 1
-        },
-        "isLent": true,
-        "rating": 4,
-        "fullBookInfo": "https://www.googleapis.com/books/v1/volumes?q=isbn:0241004551"
+      "rating": 4
+    },
+    {
+      "bookId": 9,
+      "isbn": "0241004551",
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Medellin",
+        "copies": 1,
+        "isLent": true
       },
-      {
-        "bookId": 10,
-        "isbn": 1285415019,
-        "acquisitionDate": "MM/DD/YYYY",
-        "isDigital": false,
-        "location": {
-          "city": "Quito",
-          "copies": 1
-        },
-        "isLent": false,
-        "rating": 4,
-        "fullBookInfo": "https://www.googleapis.com/books/v1/volumes?q=isbn:1285415019"
+      "rating": 4
+    },
+    {
+      "bookId": 10,
+      "isbn": 1285415019,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Quito",
+        "copies": 1,
+        "isLent": false
       },
-      {
-        "bookId": 11,
-        "isbn": "059655558X",
-        "acquisitionDate": "MM/DD/YYYY",
-        "isDigital": true,
-        "location": {
-          "city": null,
-          "copies": null
-        },
-        "isLent": false,
-        "rating": 4,
-        "fullBookInfo": "https://www.googleapis.com/books/v1/volumes?q=isbn:059655558X"
+      "rating": 4
+    },
+    {
+      "bookId": 11,
+      "isbn": "059655558X",
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Digital",
+        "copies": null,
+        "isLent": false
       },
-      {
-        "bookId": 12,
-        "isbn": "0471237124",
-        "acquisitionDate": "MM/DD/YYYY",
-        "isDigital": false,
-        "location": {
-          "city": "Cartagena",
-          "copies": 1
-        },
-        "isLent": true,
-        "rating": 5,
-        "fullBookInfo": "https://www.googleapis.com/books/v1/volumes?q=isbn:0471237124"
+      "rating": 4
+    },
+    {
+      "bookId": 12,
+      "isbn": "0471237124",
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Cartagena",
+        "copies": 1,
+        "isLent": false
       },
-      {
-        "bookId": 14,
-        "isbn": 1491920475,
-        "acquisitionDate": "MM/DD/YYYY",
-        "isDigital": true,
-        "location": {
-          "city": null,
-          "copies": null
-        },
-        "isLent": false,
-        "rating": 4,
-        "fullBookInfo": "https://www.googleapis.com/books/v1/volumes?q=isbn:1491920475"
+      "rating": 5
+    },
+    {
+      "bookId": 14,
+      "isbn": 1491920475,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Digital",
+        "copies": null,
+        "isLent": false
       },
-      {
-        "bookId": 15,
-        "isbn": 1491971940,
-        "acquisitionDate": "MM/DD/YYYY",
-        "isDigital": true,
-        "location": {
-          "city": null,
-          "copies": null
-        },
-        "isLent": false,
-        "rating": 4,
-        "fullBookInfo": "https://www.googleapis.com/books/v1/volumes?q=isbn:1491971940"
-      }
-    ]
-  }
+      "rating": 4
+    },
+    {
+      "bookId": 15,
+      "isbn": 1491971940,
+      "acquisitionDate": "MM/DD/YYYY",
+      "bookshelf": {
+        "location": "Digital",
+        "copies": null,
+        "isLent": false
+      },
+      "rating": 4
+    }
+  ]
+}

@@ -1,89 +1,112 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Jobsity Bookshelf</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">    
-        <link href="css/main.css" rel="stylesheet">
-        <link href="css/tippy.css" rel="stylesheet">
-        <link rel="shortcut icon" href="https://www.jobsity.com/sites/default/files/logo2.png" type="image/png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://unpkg.com/tippy.js@2.5.2/dist/tippy.all.min.js"></script>
-       
-    </head>
 
-  <body>
-    <div class="header">    
+<head>
+    <meta charset="utf-8">
+    <title>Jobsity Bookshelf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://www.jobsity.com/sites/default/files/logo2.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/tippy.css" rel="stylesheet">
+    <script src="https://unpkg.com/tippy.js@2.5.2/dist/tippy.all.min.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
         <div id="logo">
             <img id="jobsity-logo" src="img/jobsity.png" align="centerS">
         </div>
-        <div class="text" id="title">Bookshelf</div> 
+        <div class="text" id="title">Bookshelf</div>
         <div class="text search">
-                <form method="get" action="/search" id="search-bar">
-                    <input name="q" type="text" size="40" placeholder="Search..." />
-                  </form>
+            <form method="get" action="/search" id="search-bar">
+                <input name="q" type="text" size="40" placeholder="Search..." />
+            </form>
         </div>
-        <div class="text" id="login">Miguel Isaza J.  
-             <img onclick="showUserOptions()" id="profile-ph" src="img/user.png" align="right">
-             <div id="userDrop" class="user-dropdown-content">
-                    <a href="#profile">Profile</a>
-                    <a href="#settigns">Settings</a>
-                    <a href="index.html">Sign Out</a>
-             </div>
-        </div> 
+        <div class="text" id="login"><span id="username">Miguel Isaza</span> <span id="caron">ˇ</span>
+            <img onclick="showUserOptions()" id="profile-ph" src="img/user.png" align="right">
+            <div id="userDrop" class="user-dropdown-content">
+                <a href="#profile">Profile</a>
+                <a href="#settigns">Settings</a>
+                <a href="index.html">Sign Out</a>
+            </div>
+        </div>
         <div id="mobile">
             <i class="fa fa-bars" onclick="showMobileOptions()"></i>
             <div id="mobileDrop" class="mobile-drop-content">
-                <a id="filters" href="#profile">Filters</a>
-                <a href="#filter">Profile</a>
+                <a id="filters" href="#profile">MAIN</a>
+                <a href="#filter" onclick="filterElements(&quot;Quito&quot;)">Quito</a>
+                <a href="#filter" onclick="filterElements(&quot;Cartagena&quot;)">Cartagena</a>
+                <a href="#filter" onclick="filterElements(&quot;Medellin&quot;)">Medellin</a>
+                <a href="#filter" onclick="filterElements(&quot;Digital&quot;)">Digital</a>
+                <a href="#filter" onclick="filterElements(&quot;Personal&quot;)">Personal Loans</a>
+                <a href="#filter" onclick="filterElements(&quot;New Releases&quot;)">New Releases</a>
+
+                <a id="filters" href="#profile">MY BOOKS</a>
+                <a href="#filter">Readings</a>
+                <a href="#filter">History</a>
+                <a href="#filter">Watch Later</a>
+                <a id="filters" href="#filter">Profile</a>
                 <a href="index.html">Sign Out</a>
-                
+
             </div>
 
-        </div>  
+        </div>
     </div>
 
     <div class="wrapper">
 
         <div class="sidebar filters">
             <div class="book-filters">
-                <ul class="icon-list">
-                    <li><i class="fa fa-map-marker"></i>Quito</li>
-                    <li><i class="fa fa-map-marker"></i>Cartagena</li>
-                    <li><i class="fa fa-map-marker"></i>Medellín</li>
-                    <li><i class="fa fa-tablet"></i>Digital</li>
-                    <li><i class="fa fa-user"></i>Personal loans</li>
-                    <li id="selected"><i class="fa fa-tags"></i>New Releases</li>
+                <h4 class="sidebar-section">MAIN</h4>
+                <ul class="icon-list" id="il">
+                    <li id="quito-filter" onclick="filterElements(&quot;Quito&quot;)">
+                        <i class="fa fa-map-marker" ></i>Quito</li>
+                    <li id="cartagena-filter" onclick="filterElements(&quot;Cartagena&quot;)">
+                        <i class="fa fa-map-marker" ></i>Cartagena</li>
+                    <li id="medellin-filter" onclick="filterElements(&quot;Medellin&quot;)">
+                        <i class="fa fa-map-marker" ></i>Medellín</li>
+                    <li id="digital-filter" onclick="filterElements(&quot;Digital&quot;)">
+                        <i class="fa fa-tablet" ></i>Digital</li>
+                    <li id="personal-filter" onclick="filterElements(&quot;Personal&quot;)">
+                        <i class="fa fa-user"></i>Personal loans</li>
+                    <li id="releases-filter" class="selected" onclick="filterElements(&quot;New Releases&quot;)">
+                        <i class="fa fa-tags"></i>New Releases</li>
                 </ul>
 
             </div>
             <div class="my-books">
-                <h4 id="your-books">YOUR BOOKS</h4>
+                <h4 class="sidebar-section">YOUR BOOKS</h4>
                 <ul class="icon-list">
-                        <li><i class="fa fa-book"></i>Readings</li>
-                        <li><i class="fa fa-history"></i>History</li>
-                        <li><i class="fa fa-bookmark"></i>Read Later</li>
-                        <li><i class="fa fa-heart"></i>Favorites</li>
-                    </ul>
+                    <li>
+                        <i class="fa fa-book"></i>Readings</li>
+                    <li>
+                        <i class="fa fa-history"></i>History</li>
+                    <li>
+                        <i class="fa fa-bookmark"></i>Read Later</li>
+                    <li>
+                        <i class="fa fa-heart"></i>Favorites</li>
+                </ul>
             </div>
 
         </div>
         <div class="books-wrapper">
             <div class="books-headers">
                 <div id="filter-name">
-                    <h4>New Releases</h4>
+                    <h4 id="filter-title">New Releases</h4>
                 </div>
                 <div id="filter-opt">
-                    <h5>Release date | Popularity</h5>
+                    <h4><span id="rd">Release date</span> &ensp;|&ensp; <span id="pop">Popularity</span></h4>
                 </div>
                 <div id="display-opt">
                     <i class="fa fa-th-large display-btn"></i>
                     <i class="fa fa-list display-btn"></i>
                 </div>
             </div>
-                <div class="books-container" id="dyn">
-                    <img src="img/loading.gif" align="middle">
-                
+            <div class="books-container" id="dyn">
+                <img src="img/loading.gif" align="middle">
+
             </div>
 
         </div>
@@ -99,57 +122,31 @@
             </ol>
 
         </div>
-        
+
     </div>
 
 
     <div id="book-info">
         <div id="tt-header">
             <h4>A cool book</h4>
-            <h5>Book By <span id="span">John Doe</span></h5>
+            <h5>Book By
+                <span id="span">John Doe</span>
+            </h5>
             <h6 class="available">Available</h6>
             <h5 id="book-year">2018</h5>
 
         </div>
         <div id="tt-body">
             <h5>SUMMARY:</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque impedit suscipit quia laudantium laborum nobis eligendi velit saepe dolore dignissimos, iste tenetur sunt ut veritatis quasi corrupti beatae distinctio. Eos!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque impedit suscipit quia laudantium laborum nobis
+                eligendi velit saepe dolore dignissimos, iste tenetur sunt ut veritatis quasi corrupti beatae distinctio.
+                Eos!
+            </p>
         </div>
     </div>
-    
-    <div class="footer">
-            <form>
-                <label>Refine Search:</label> 
-                <select class="select" id="book-type" name="book-type">
-                    <optgroup label="Filters">
-                        <option value="new">New Releases</option>
-                        <option value="quito">Quito</option>
-                        <option value="cartagena">Cartagena</option>
-                        <option value="medellin">Medellín</option>
-                        <option value="digital">Digital</option>
-                        <option value="personal">Personal Loans</option>
-                    </optgroup>
-                    <optgroup label="Your Books">
-                        <option value="new">Readings</option>
-                        <option value="quito">History</option>
-                        <option value="cartagena">Read Later</option>
-                        <option value="medellin">Favorites</option>
-                    </optgroup>
-                    
-                </select>
-                <label>Sort By:</label>
-                <select class="select" id="location"  name="location">
-                    <option value="cartagena">Release Date</option>
-                    <option value="medellin">Popularity</option>
-                </select>
-                <label>View:</label>
-                <select class="select"> 
-                    <option value="science">Grid</option>
-                    <option value="javascript">List</option>
-            
-            </form>       
-        </div>
-  </body>
-  <script src="src/js/main.js"></script>
-  <script src="build/js/asyncStuff.js"></script>
-</html> 
+
+</body>
+<script src="build/js/main.js"></script>
+<script src="build/js/asyncStuff.js"></script>
+
+</html>
