@@ -1,0 +1,489 @@
+@font-face {
+    font-family: pluto-sans;
+    font-weight: bolder;
+    src: url(../assets/Pluto-Sans-Bold.otf);
+}
+
+@font-face {
+    font-family: pluto-sans;
+    font-weight: bold;
+    src: url(../assets/Pluto-Sans-Medium.otf);
+}
+
+@font-face {
+    font-family: pluto-sans;
+    font-stretch: condensed;
+    font-weight: bolder;
+    src: url(../assets/Pluto-Sans-Cond-Bold.otf);
+}
+
+@font-face {
+    font-family: pluto-sans;
+    font-stretch: condensed;
+    font-weight: bold;
+    src: url(../assets/Pluto-Sans-Cond-Medium.otf);
+}
+
+@font-face {
+    font-family: pluto-sans;
+    font-stretch: condensed;
+    font-weight: normal;
+    src: url(../assets/Pluto-Sans-Cond-Regular.otf);
+}
+
+@font-face {
+    font-family: pluto-sans;
+    font-stretch: condensed;
+    font-weight: lighter;
+    src: url(../assets/Pluto-Sans-Cond-Light.otf);
+}
+
+body {
+    margin: 0;
+    font-family: pluto-sans;
+}
+
+#mobile {
+    display: none;
+}
+
+.mobile-drop-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 61px;
+    right: 0;
+}
+
+.mobile-drop-content a {
+    color: white;
+    background-color: #231f20;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.mobile-drop-content a:hover {
+    background-color: #48bceb
+}
+
+.show {
+    display: block;
+}
+
+/* scrollbar style */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    background-color: #fcf8f3;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 66px;
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 1px solid #6ec1e4;
+    z-index: 1;
+}
+
+.header img {
+    margin: 14px;
+    width: auto;
+    height: auto;
+}
+
+#jobsity-logo {
+    max-width: 150px;
+}
+
+.header p {
+    margin: 0px;
+    padding: 0px;
+    right: 35px;
+}
+
+.header>.text {
+    position: relative;
+    padding: 11.5px 0;
+    margin: 11.5px 0;
+}
+
+#mobile {
+    display: none;
+}
+
+#logo {
+    background: white;
+    flex: 1.04;
+    border-right: 1px solid #d6dde5
+}
+
+#title {
+    font-weight: bold;
+    text-align: left;
+    flex: 2;
+    left: 18px;
+    font-size: 20px;
+}
+
+.search {
+    flex: 3;
+    margin: -2px 0;
+}
+
+form {
+    position: relative;
+    bottom: 3px;
+}
+
+#search-bar input[type="text"] {
+    position: relative;
+    left: 25.5%;
+    background: url(../img/search-white.png) no-repeat 10px 6px #fcfcfc;
+    border: 1px solid #6ec1e4;
+    font: bold 12px Arial, Helvetica, Sans-serif;
+    width: 34%;
+    height: 1.3em;
+    padding: 6px 15px 6px 35px;
+    border-radius: 20px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    transition: all 0.7s ease 0s;
+}
+
+#search-bar input[type="text"]:focus {
+    width: 35%;
+}
+
+#login {
+    flex: 1.04;
+    border-left: 1px solid #d6dde5;
+}
+
+#username {
+    font-stretch: condensed;
+    position: relative;
+    left: 26px;
+    bottom: 1px;
+    font-size: 12px;
+}
+
+#profile-ph {
+    margin: -5px 15px;
+    max-height: 30px;
+    border: 1px solid #6cc0e4;
+    border-radius: 1em;
+}
+
+#caron {
+    position: relative;
+    left: 33px;
+    top: 7px;
+}
+
+.user-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 38px;
+    right: 0;
+}
+
+.user-dropdown-content a {
+    color: white;
+    background-color: #54a2c4;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.user-dropdown-content a:hover {
+    background-color: #6cc0e4
+}
+
+.show {
+    display: block;
+}
+
+.wrapper {
+    background-color: #231f20;
+    display: flex;
+    height: 100vmin;
+    justify-content: space-around;
+}
+
+.sidebar {
+    flex: 1.04;
+    padding: 6% 0;
+}
+
+.sidebar>h4 {
+    display: block;
+    margin: 0 auto;
+    padding-left: 34px;
+}
+
+.filters {
+    color: white;
+    border-right: 2px solid #d6dde5;
+}
+
+.trends {
+    color: #bbb7b5
+}
+
+.trend-list {
+    font-stretch: condensed;
+    font-weight: lighter;
+    margin: -5px 0;
+    font-size: 10px;
+    line-height: 3.4;
+}
+
+.trends>h5 {
+    font-weight: bold;
+    font-stretch: condensed;
+    position: relative;
+    left: 5px;
+    bottom: 1px;
+    padding-left: 25px;
+    font-size: 10.6px;
+}
+
+ol,
+ul {
+    font-size: 12px;
+    line-height: 34px;
+}
+
+i {
+    padding: 0 16px;
+}
+
+.icon-list {
+    font-stretch: condensed;
+    padding-left: 10%;
+    list-style-type: none;
+    color: #7fccea;
+    margin-top: 0;
+    margin-bottom: 33px;
+    cursor: pointer;
+}
+
+.icon-list>.selected {
+    color: white;
+    font-weight: bolder;
+}
+
+.books-wrapper {
+    flex: 5;
+    background-color: #f5f6f8;
+    overflow: auto;
+    margin-top: 66px;
+    padding-top: 3px;
+}
+
+.books-headers {
+    display: flex;
+    height: 45px;
+    text-align: center;
+    align-items: baseline;
+}
+
+.sidebar-section {
+    font-stretch: condensed;
+    padding-left: 32px;
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+#filter-title {
+    font-stretch: condensed;
+    font-weight: lighter;
+    position: relative;
+    right: 5px;
+    top: 2px;
+}
+
+#filter-name {
+    flex: 1
+}
+
+#filter-opt {
+    position: relative;
+    right: 1px;
+    margin: 0;
+    padding: 0;
+    flex: 2;
+    color: #a8a8a8;
+    font-size: 12px;
+    font-stretch: condensed;
+}
+
+#pop {
+    font-weight: lighter;
+}
+
+#display-opt {
+    position: relative;
+    left: 32px;
+    flex: 1;
+    font-size: 30px;
+    color: #7fccea;
+}
+
+.display-btn {
+    padding: 0 5.5px;
+}
+
+.books-container {
+    margin: 0 52px;
+    margin-top: 2px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.books {
+    width: 145px;
+    height: 270px;
+    margin: 18px 7px;
+
+}
+
+.books>h4 {
+    font-stretch: condensed;
+    font-weight: bold;
+    color: #484848;
+    margin: 0;
+    margin-top: 5px;
+    font-size: 13.3px;
+}
+
+.books>h5 {
+    font-stretch: condensed;
+    font-weight: lighter;
+    color: #aeaeae;
+    margin: 0;
+    margin-top: 2px;
+    font-size: 10px;
+    font-style: normal;
+}
+
+.books img {
+    width: inherit;
+    height: 210px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#borrowed {
+    position: relative;
+    left: 5px;
+    bottom: 50px;
+    width: 60px;
+    height: auto;
+    opacity: 0.9;
+}
+
+.fa {
+    position: relative;
+    top: 2px;
+    font-size: 15px;
+    max-width: 10px;
+}
+
+.fa-star,
+.fa-star-o {
+    margin-right: 2.2px;
+    font-size: 12px;
+    color: #7fccea;
+}
+
+.footer {
+    display: none;
+}
+
+/* for smaller screens */
+
+@media only screen and (max-height: 550px),
+screen and (max-width: 1200px) {
+    .wrapper {
+        height: 100%;
+    }
+    .sidebar {
+        display: none;
+    }
+    .books-headers {
+        display: none;
+    }
+    #title {
+        flex: 1
+    }
+    #profile-ph {
+        margin: -8px 10px;
+    }
+    .search {
+        flex: 2;
+        right: 2%;
+    }
+    .fa-bars {
+        font-size: 25px;
+    }
+    #search-bar input[type="text"] {
+        width: 40%;
+    }
+    #mobile {
+        padding-top: 10px;
+        display: block;
+        padding-right: 10px;
+        font-size: 30px;
+    }
+    #mobile a {
+        max-height: 20px;
+        font-size: 20px;
+    }
+    #filters {
+        background-color: #7fccea
+    }
+    #filters:hover {
+        background-color: #48bceb
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .search {
+        flex: 1;
+        right: 7%
+    }
+}
+
+/* tablet screens */
+
+@media only screen and (max-width: 725px) {
+    #search-bar input[type="text"] {
+        display: none;
+    }
+    .search {
+        flex: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #login {
+        display: none;
+    }
+}

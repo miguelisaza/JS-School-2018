@@ -1,0 +1,130 @@
+.modal {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background: #f5f6f8;
+    max-width: 35%;
+    border-radius: 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+}
+
+.modal-book-info{
+    display: flex;
+    flex: 2;
+    justify-content: left;
+   
+}
+
+.modal-book-names{
+    margin: 0 1em;
+}
+
+.modal-buttons{
+    flex: 1;
+}
+
+.modal-dyn-button > button {
+    font-family: Pluto;
+    text-transform: uppercase;
+    outline: 0;
+    border: 5px solid #6EC1E4;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    color: #FFFFFF;
+    background: #533455;
+    font-size: 15px;
+    font-weight: bold;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+#submit-button{
+    font-family: Pluto;
+    text-transform: uppercase;
+    outline: 0;
+    border: 2px solid #6EC1E4;
+    border-radius: 7px;
+    width: 50%;
+    padding: 4px;
+    margin: 6px 0;
+    color: #FFFFFF;
+    background: #533455;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+
+#modal-title, #modal-author, #modal-location, #modal-copies, #modal-na {
+
+    margin: 0 0 5px 0;
+    flex: 1;
+}
+
+#modal-author{
+    font-stretch: condensed;
+    color: #a8a8a8;
+}
+
+#modal-location{
+    font-stretch: condensed;
+    color: #533455;
+}
+
+#modal-copies{
+    color: rgb(99, 204, 0);
+}
+
+#modal-na{
+
+    color: rgb(238, 31, 31);
+}
+
+
+.modal-book-container{
+    display: flex;
+    flex: 1;
+}
+
+.modal-summary{
+    flex: 1;
+}
+
+.modal-summary > h5{
+    margin: 1em 0;
+}
+
+#modal-book-summary{  
+    font-stretch: condensed;
+    font-weight: lighter;
+    font-size: 11.1px;
+    margin: 0;
+    max-height: 10em;
+    overflow: scroll;
+    text-align: justify;
+    }
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+

@@ -1,0 +1,43 @@
+##
+put this en book container
+
+        {this.state.showModal &&
+        <ReservationModal show={this.state.showModal} handleClose={this.hideModal}  ref={ref => {this.modal = ref}}/>}
+
+arregla esa vaina para que jale de la api, for now is good to deliver
+
+en el ReservationModal.jsx metele esto:
+
+import { getBookByID } from '../services/bookService'
+
+...
+
+  componentDidMount(){
+
+    console.log('modal!')
+    let book 
+    let allBooks = []
+
+    getBookByID(this.state.bookId)
+      .then(({ books }) => {
+        if (books === undefined) window.location = '/'
+        books[0] = book; 
+        books.forEach((book) => allBooks.push(book));
+      })
+      .then(() => {
+        this.setState({bookData: book},
+          () => {
+            console.log(this.state.bookData);
+          });
+        this.setState({isLoading: false},
+          () => {
+            console.log('single book loaded');
+          });
+      });
+  }
+
+
+para que jale de la api y actualice cuando se abra el modal 
+
+
+debes resolver lo de que necesitas halar la ref en el instante en el que se monta esa cagá 
