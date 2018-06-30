@@ -19,10 +19,7 @@ class ReservationModal extends Component {
       bookId: book.bookId,
       bookData: book,
       modalIsShown: true,
-    },
-      () => {
-        console.log(this.state.bookId);
-      })
+    })
   }
 
   showDatePicker = () => this.setState({ datePickerIsShown: true })

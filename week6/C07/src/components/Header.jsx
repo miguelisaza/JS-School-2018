@@ -27,7 +27,7 @@ class Header extends Component {
         <div className="text" id="login">
           <span id="username">Miguel Isaza</span>
           <span id="caron">ˇ</span>
-          <img onClick="showUserOptions()" id="profile-ph" src={require('../img/user.png')} alt="" align="right" />
+          <img id="profile-ph" src={require('../img/user.png')} alt="" align="right" />
           <div id="userDrop" className="user-dropdown-content">
             <a href="#profile">Profile</a>
             <a href="#settigns">Settings</a>
