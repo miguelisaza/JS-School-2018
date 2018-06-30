@@ -10,27 +10,30 @@
 Assuming we are running Mongo DB database and we are in mongo shell we begin: 
 
 First, we have to create `bookshelf` database 
-
-> use bookshelf
-
+```
+use bookshelf
+```
 then the corresponding collections...
 
 `books` collection:
-> db.createCollection('books')
-
+ ```
+ db.createCollection('books')
+```
 `users` colection:
-> db.createCollection('users')
+```
+db.createCollection('users')
+```
 
 In order to fill the books collection we first have to import data from a given JSON file:
 
-#### WARNING: This is a Windows command, in mac should be slightly different. 
+To do this, we simple have to access the following endpoint: 
 
- >.\mongoimport.exe --db bookshelf --collection books --type json --file "FULL_PATH_TO_FOLDER\data\bookshelf.json" --jsonArray
-
-If everything is correct, you should get something like this, but with your current datetime: 
 ```
-2018-06-20T15:05:44.098-0500    connected to: localhost
-2018-06-20T15:05:44.112-0500    imported 13 documents
+/api/populateDB
+```
+If everything is correct, you should get this response: 
+```
+db populated
 ```
 Now we have the `books` collection with data.
 
