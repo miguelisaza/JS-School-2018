@@ -1,4 +1,5 @@
- [
+{
+  "books": [
     {
       "bookId": 1,
       "isbn": 9781451648546,
@@ -60,7 +61,7 @@
       "acquisitionDate": "MM/DD/YYYY",
       "bookshelf": {
         "location": "Medellin",
-        "copies": null,
+        "copies": 1,
         "isLent": false
       },
       "rating": 5
@@ -71,7 +72,7 @@
       "acquisitionDate": "MM/DD/YYYY",
       "bookshelf": {
         "location": "Medellin",
-        "copies": null,
+        "copies": 4,
         "isLent": false
       },
       "rating": 4
@@ -82,7 +83,7 @@
       "acquisitionDate": "MM/DD/YYYY",
       "bookshelf": {
         "location": "Medellin",
-        "copies": 1,
+        "copies": 0,
         "isLent": true
       },
       "rating": 4
@@ -142,4 +143,5 @@
       },
       "rating": 4
     }
-]
+  ]
+}

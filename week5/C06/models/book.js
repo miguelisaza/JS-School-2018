@@ -7,14 +7,14 @@ db.on('error', console.error.bind(console, 'connection error:'));
 const booksSchema = mongoose.Schema({
   bookId: Number,
   isbn: String,
-  acquisitionDate: Date,
+  acquisitionDate: String,
   bookshelf: {
     location: String,
     copies: Number,
     isLent: Boolean,
   },
   rating: Number,
-});
+}, { strict: false });
 
 const Books = mongoose.model('books', booksSchema);
 

@@ -22,4 +22,3 @@ module.exports = {
   bookNotFoundExc,
   lentBookExc,
 };
-

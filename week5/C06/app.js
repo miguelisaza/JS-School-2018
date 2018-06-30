@@ -1,17 +1,23 @@
 const bookController = require('./controllers/bookController');
 const userController = require('./controllers/userController');
 const auth = require('./controllers/authController');
+const data = require('./data/retrieveData');
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const app = express();
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({
+  extended: true,
+}));
 app.use(cors());
 
-
 const baseUrl = '/api/';
+
+app.get(`${baseUrl}populateDB`, (req, res) => {
+  data.populateDb(req, res);
+});
 
 // POST: Login
 app.post(`${baseUrl}login`, (req, res) => {

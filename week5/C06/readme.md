@@ -11,27 +11,22 @@ Assuming we are running Mongo DB database and we are in mongo shell we begin:
 
 First, we have to create `bookshelf` database 
 
-```
-use bookshelf
-```
+> use bookshelf
+
 then the corresponding collections...
 
 `books` collection:
+> db.createCollection('books')
 
-```
-db.createCollection('books')
-```
 `users` colection:
+> db.createCollection('users')
 
-```
-db.createCollection('users')
-```
 In order to fill the books collection we first have to import data from a given JSON file:
 
 #### WARNING: This is a Windows command, in mac should be slightly different. 
-```
-$ .\mongoimport.exe --db bookshelf --collection books --type json --file "FULL_PATH_TO_FOLDER\data\bookshelf.json" --jsonArray
-```
+
+ >.\mongoimport.exe --db bookshelf --collection books --type json --file "FULL_PATH_TO_FOLDER\data\bookshelf.json" --jsonArray
+
 If everything is correct, you should get something like this, but with your current datetime: 
 ```
 2018-06-20T15:05:44.098-0500    connected to: localhost
@@ -45,15 +40,12 @@ Further we are going to create a user who will be stored in `users` collection u
 
 It's neccesary to have all dependencies listed in `package.json` installed in order to run our server properly. 
 
-```
-$ npm install
-```
+> $ npm install
 
 When all dependencies are instaled, run the aplication.
 
-```
-$ node app
-```
+> $ node app
+
 If everything is OK, you will see the following in the console: 
 
 ```
