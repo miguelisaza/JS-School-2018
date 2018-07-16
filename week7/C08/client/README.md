@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - Bookshelf Server running on `localhost:8000`
 
-Check the Server docks here: [Server Documentation]()
+Check the Server docks here: [Server Documentation](https://github.com/miguelisaza/JS-School-2018/blob/develop/week7/C08/server/readme.md)
 
 ### Installing dependencies
 
@@ -27,4 +27,4 @@ Now we can acess the app on browser at
 ```
 http://localhost:3000/
 ```
-There is a default user with `admin:admin` (check how to populate data on [server readme]() first ) credentials. 
+There is a default user with `admin:admin` (check how to populate data on [server readme](https://github.com/miguelisaza/JS-School-2018/blob/develop/week7/C08/server/readme.md) first ) credentials. 
