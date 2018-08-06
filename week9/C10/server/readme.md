@@ -1,42 +1,12 @@
-# Challenge C06: Bookshelf API 
+# Bookshelf API 
 
 ## Requeriments:
 
 * Node.js
 * MongoDB Server
 
-### Step 1: Preparing MongoDB
 
-Assuming we are running Mongo DB database and we are in mongo shell we begin: 
-
-First, we have to create `bookshelf` database 
-
-> use bookshelf
-
-then the corresponding collections...
-
-`books` collection:
-> db.createCollection('books')
-
-`users` colection:
-> db.createCollection('users')
-
-In order to fill the books collection we first have to import data from a given JSON file:
-
-#### WARNING: This is a Windows command, in mac should be slightly different. 
-
- >.\mongoimport.exe --db bookshelf --collection books --type json --file "FULL_PATH_TO_FOLDER\data\bookshelf.json" --jsonArray
-
-If everything is correct, you should get something like this, but with your current datetime: 
-```
-2018-06-20T15:05:44.098-0500    connected to: localhost
-2018-06-20T15:05:44.112-0500    imported 13 documents
-```
-Now we have the `books` collection with data.
-
-Further we are going to create a user who will be stored in `users` collection using the API.
-
-### Step 2: Installing dependencies
+### Step 1: Installing dependencies
 
 It's neccesary to have all dependencies listed in `package.json` installed in order to run our server properly. 
 
@@ -53,6 +23,17 @@ Running on port 8000
 ```
 
 Now we have the app up and running! 
+
+### Step 2: populating MongoDB
+
+Using postman or web broser, make an HTTP GET request to the following endpoint: 
+
+```
+http://localhost:8000/api/populateDB
+
+```
+
+This endpoint populates the DB with 13 books and a default user with `admin:admin` credentials 
 
 ### Step 3: Knowing the API
 
@@ -81,6 +62,13 @@ User model schema:
   occupation: String,
   age: Number,
 ```
+Reservation model schema: 
+```JavaScript
+  bookId: Number,
+  userId: Number,
+  returnDate: Date,
+```
+
 
 
 
