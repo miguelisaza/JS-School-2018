@@ -24,8 +24,8 @@ You can run this build wihout installing `npm` or any dependency just putting th
 
 if you access `videoClipper.html` directly you will get the app running in all the browser. 
 
-
-
+### Usage tips:
+Hotkey controls are `alt+b` for previous video and `alt+n` for next video 
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
